@@ -11,7 +11,7 @@ const CartContextProvider = ({ children }) => {
     if (cartProducts.length > 0) {
       ls.setItem("cart", JSON.stringify(cartProducts));
     }
-  }, [cartProducts]);
+  }, [ls,cartProducts]);
 
   useEffect(() => {
     // if (ls) {

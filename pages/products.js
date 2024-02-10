@@ -16,7 +16,7 @@ export const getServerSideProps = async () => {
 };
 
 const ProductsPage = ({ products }) => {
-  console.log({ products });
+  // console.log({ products });
   return (
     <>
       <Header />
